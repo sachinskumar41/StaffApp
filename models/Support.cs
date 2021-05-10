@@ -25,10 +25,6 @@ namespace SupportLib
                 Console.WriteLine("Invalid age");
             }
         }
-        public override void DeleteStaffDetails()
-        {
-            base.DeleteStaffDetails();
-        }
         public override void UpdateStaffDetails()
         {
             int parseInput;

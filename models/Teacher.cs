@@ -16,10 +16,6 @@ namespace TeacherLib
             Console.WriteLine("Enter the subject");
             Subject = Console.ReadLine();
         }
-        public override void DeleteStaffDetails()
-        {
-            base.DeleteStaffDetails();
-        }
         public override void UpdateStaffDetails()
         {
             string checkInput;

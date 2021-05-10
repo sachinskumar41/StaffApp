@@ -23,10 +23,6 @@ namespace StaffLib
             Console.WriteLine("Enter the staff phone number");
             Phone = Console.ReadLine();
         }
-        public virtual void DeleteStaffDetails()
-        {
-
-        }
         public virtual void UpdateStaffDetails()
         {    
             string checkInput;

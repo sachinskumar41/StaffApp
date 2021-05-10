@@ -16,10 +16,6 @@ namespace AdminLib
             Console.WriteLine("Enter the department");
             Department = Console.ReadLine();
         }
-        public override void DeleteStaffDetails()
-        {
-            base.DeleteStaffDetails();
-        }
         public override void UpdateStaffDetails()
         {
             string checkInput;
