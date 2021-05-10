@@ -17,7 +17,7 @@ namespace ConsoleApp
             List<Staff> staffList = new List<Staff>();
             char continueChoice;
             bool isChar;
-            var builder = new ConfigurationBuilder()
+            IConfigurationBuilder builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
             IConfigurationRoot configuration = builder.Build();
